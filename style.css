@@ -2,18 +2,38 @@
     box-sizing: border-box;
 }
 .container {
+    margin-bottom: 200px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .headSettings{
     width: 100%;
     font-size: 30px;
     line-height: 70px;
     background-color: white;
-    position: relative;
     color: rgb(140,107,72,1);
     text-align: center;
     height: 70px;
     margin-top: -3px;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(140,107,72,1);
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .bottomSettings{
     position: fixed;
@@ -25,8 +45,8 @@
     height:70px;
 }
 .bot_settings_items {
-    width: 300px;
     margin: 0 auto;
+    width: 300px;
     justify-content: space-between;
     display: flex;
 
@@ -34,19 +54,6 @@
 .bottomItems{
     line-height: 70px;
 }
-.table{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    font-family: Arial;
-    font-size: 30px;
-    color: rgb(140,107,72,1);
-    text-align: center;
-    width: 500px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}  
 .line1{
     flex: 100%;
     border: 1px solid rgb(140,107,72,1);
