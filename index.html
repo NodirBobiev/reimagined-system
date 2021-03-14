@@ -1,104 +1,30 @@
-
 <!DOCTYPE html>
 <html>
     <head>
-    	<meta charset="utf-8">
-    	<title>Schedule</title>
-    	<style>
-    		/*
-    		rgb(140,107,72,1)
-    		rgb(36,47,68,1)
-    		*/
-    		* {
- 				box-sizing: border-box;
-			}
-	        .headSettings{
-	        	width: 100%;
-    			font-size: 30px;
-    			line-height: 70px;
-	        	background-color: white;
-	        	position: relative;
-    			color: rgb(140,107,72,1);
-	        	text-align: center;
-	        	height: 70px;
-	        	margin-top: -3px;
-	    	}
-	    	.bottomSettings{
-	    		display: flex;
-	    		width: 400px;
-	    		background-color: rgb(255,25,25,1);
-	    		justify-content: space-around;
-	    		position: fixed;
-	    		color: white;
-	    		flex-direction: row;
-	    		font-size: 15px;
-	    		height:70px;
-	    		text-align: center;
-	    		align-items: center;
-	    	}
-	    	.bottomItems{
-	    		line-height: 70px;
-	    	}
-	    	.table{
-				display: flex;
-				flex-wrap: wrap;
-				text-align: center;
-				font-family: Arial;
-				font-size: 30px;
-				color: rgb(140,107,72,1);
-				text-align: center;
-				width: 500px;
-				margin-top: 20px;
-				margin-left: auto;
-				margin-right: auto;
-			}  
-			.line1{
-				flex: 100%;
-				border: 1px solid rgb(140,107,72,1);
-				background-color: white;
-				line-height: 70px;
-			}
-			.line2_33, .line33{
-				flex: 33%;
-			}
-			.line2_67, .line67{
-				flex: 67%;
-			}
-			.line33, .line67{
-				line-height: 80px;
-			}
-			.line2_33, .line2_67{
-				line-height: 60px;
-			}
-
-			.line2_33, .line2_67, .line33, .line67{
-				border: 1px solid rgb(140,107,72,1);
-				color: white;
-				font-size: 20px;
-			}
-	    	
-    	</style>
-    	
+      <meta charset="utf-8">
+      <title>Schedule</title>
+      <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color:rgb(36,47,68,1);">
-    	<div style="height:900px;">
-	    	<div class="headSettings">Annual Aguillar Family Wine Festival</div>
-	    	<div class="table">
-	    		
-	    		<div class="line1">Wine Festival Schedule</div>
-	    		<div class="line2_33">Time</div>	<div class="line2_67">Event</div>
-	    		<div class="line33">12:00 PM</div>	<div class="line67">Welcome Reception</div>
-	    		<div class="line33">01:00 PM</div>	<div class="line67">Storytelling & Tasting</div>
-	    		<div class="line33">02:00 PM</div>	<div class="line67">Wine Luncheon</div>
-	    		<div class="line33">03:00 PM</div>	<div class="line67">Aguillar Family Wines</div>
-	    		<div class="line33">04:00 PM</div>	<div class="line67">Wine & Cheese Tasting</div>
-	    	</div>	
-	 		<div class="bottomSettings">
-	 			<div class="bottomItems">Contect</div>
-	 			<div class="bottomItems">Location</div>
-	 			<div class="bottomItems">Privacy Policy</div>
-	 		</div>	
- 		</div>
- 		
+      <div style="height:900px;" class="container">
+        <div class="headSettings">Annual Aguillar Family Wine Festival</div>
+        <div class="table">
+          <div class="line1">Wine Festival Schedule</div>
+          <div class="line2_33">Time</div>  <div class="line2_67">Event</div>
+          <div class="line33">12:00 PM</div>  <div class="line67">Welcome Reception</div>
+          <div class="line33">01:00 PM</div>  <div class="line67">Storytelling & Tasting</div>
+          <div class="line33">02:00 PM</div>  <div class="line67">Wine Luncheon</div>
+          <div class="line33">03:00 PM</div>  <div class="line67">Aguillar Family Wines</div>
+          <div class="line33">04:00 PM</div>  <div class="line67">Wine & Cheese Tasting</div>
+        </div>  
+       <div class="bottomSettings">
+           <div class="bot_settings_items">
+               <div class="bottomItems">Contect</div>
+               <div class="bottomItems">Location</div>
+               <div class="bottomItems">Privacy Policy</div>
+           </div>
+       </div>  
+     </div>
+     
     </body>
 </html>
